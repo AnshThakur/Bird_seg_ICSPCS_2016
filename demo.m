@@ -1,5 +1,6 @@
-addpath('gmm');
-%% read
+addpath('gmm'); %  provided here
+addpath('voicebox'); % available at http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/voicebox.html
+%% read a file
 [x fs]=audioread('test_p.wav');
 
 %% pre-emphasis
